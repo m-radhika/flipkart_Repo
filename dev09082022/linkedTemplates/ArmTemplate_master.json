@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'flipstorage'"
 		},
+		"ls_radha_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_radha'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +44,9 @@
 					},
 					"flipstorage_connectionString": {
 						"value": "[parameters('flipstorage_connectionString')]"
+					},
+					"ls_radha_connectionString": {
+						"value": "[parameters('ls_radha_connectionString')]"
 					}
 				}
 			},

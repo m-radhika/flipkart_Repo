@@ -7,6 +7,9 @@
 		},
 		"flipstorage_connectionString": {
 			"value": ""
+		},
+		"ls_radha_connectionString": {
+			"value": ""
 		}
 	}
 }
